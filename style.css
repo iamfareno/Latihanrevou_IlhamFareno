@@ -1,0 +1,89 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+.fcontainer {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(234, 238, 241);
+
+}
+
+.wrapper {
+display: flex;
+justify-content: space-between;
+font-size: 20px;
+padding: 13px;
+width: 100%;
+height: 80px;
+background-color: rgb(212, 212, 212);
+
+
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+    padding: 15px;
+    text-transform: capitalize;
+} 
+
+.firstname {
+    color: brown;
+    font-weight: 700;
+
+}
+
+.lastname {
+color: rgb(48, 48, 48);
+padding-left: 4px;
+font-weight: 400;
+padding-left: 4px;
+
+}
+
+.navigation {
+
+               display: flex;
+               justify-content: center;
+               align-items: center;
+
+}
+
+.navigation> li {
+    list-style-type: none;
+    padding: 15px;
+
+}
+
+.navigation li >a {
+    color: darkgreen;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+}
+
+.navigation >li>a:hover {
+    color: aquamarine;
+    transition: all .6s ease-in-out;
+}
+
+.navigation > li > img {
+    width: 50px;
+    height: 50px;
+    
+    
+}
+
+.active {
+    background-color: crimson;
+    color: aliceblue;
+    padding: 15px;
+}
